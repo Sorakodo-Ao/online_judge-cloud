@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75ad93e3-0884-4185-9b41-f89b94ebf4ba" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/Main1000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/annotation/AuthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/aop/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/aop/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/api/FeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/api/FeignApiFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/common/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/common/DeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/common/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/common/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/common/ResultUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/config/JsonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/constant/CommonConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/constant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/controller/QuestionSubmitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/exception/ThrowUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/JudgeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/JudgeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/codeSandBox/CodeSandBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/codeSandBox/CodeSandBoxFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/codeSandBox/CodeSandBoxProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/codeSandBox/impl/RemoteCodeSandBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/codeSandBox/impl/ThirdPartyCodeSandBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/codeSandBox/model/ExecuteCodeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/codeSandBox/model/ExecuteCodeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/strategy/JudgeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/strategy/JudgeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/strategy/context/JudgeContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/strategy/judgeStrategy/CppJudgeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/strategy/judgeStrategy/DefaultJudgeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/strategy/judgeStrategy/JavaJudgeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/mapper/QuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/mapper/QuestionSubmitMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/question/JudgeCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/question/JudgeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/question/QuestionAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/question/QuestionEditRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/question/QuestionQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/question/QuestionUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/questionSubmit/JudgeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/questionSubmit/QuestionSubmitAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/questionSubmit/QuestionSubmitQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/user/UserAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/user/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/user/UserQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/user/UserRegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/user/UserUpdateMyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/dto/user/UserUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/entity/PersonalQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/entity/QuestionSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/enums/FileUploadBizEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/enums/JudgeInfoMessageEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/enums/QuestionSubmitLanguageEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/enums/QuestionSubmitStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/enums/UserRoleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/vo/LoginUserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/vo/PersonalQuestionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/vo/QuestionSubmitVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/vo/QuestionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/model/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/service/QuestionSubmitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/service/impl/QuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/service/impl/QuestionSubmitServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/utils/NetUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/utils/SqlUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/resources/mapper/QuestionSubmitMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-service-1000/src/test/java/com/caiwei/online_judge/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/codeSandBox/CodeSandBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/codeSandBox/Impl/CppNativeCodeSandbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/codeSandBox/Impl/JavaNativeCodeSandBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/codeSandBox/Impl/RemoteCodeSandBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/codeSandBox9090.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/controller/HealthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/controller/JudgeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/exception/GobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/model/ExecuteCodeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/model/ExecuteCodeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/model/ExecuteMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/model/JudgeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/model/StatusEmun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/utils/CppProcesssUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/java/com/caiwei/online_judge/utils/JavaProcesssUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9090/src/main/resources/testCode.simpleCompteArgs/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/codeSandBox/CodeSandBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/codeSandBox/Impl/CppNativeCodeSandbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/codeSandBox/Impl/JavaNativeCodeSandBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/codeSandBox/Impl/RemoteCodeSandBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/codeSandBox9091.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/controller/HealthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/controller/JudgeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/exception/GobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/model/ExecuteCodeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/model/ExecuteCodeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/model/ExecuteMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/model/JudgeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/model/StatusEmun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/utils/CppProcesssUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/java/com/caiwei/online_judge/utils/JavaProcesssUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox-serice-9091/src/main/resources/testCode.simpleCompteArgs/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Programming Software\Maven\repository" />
+        <option name="mavenHome" value="D:/Programming Software/Maven/apache-maven-3.9.5" />
+        <option name="userSettingsFile" value="D:\Programming Software\Maven\apache-maven-3.9.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2irn7gS1A87U8cwxTGyetKTi0cl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/caiwei/Desktop/cloud_reform/oj-backend-cloud&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f6ba221df6cb4928b692b22f9fc03b1d&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\caiwei\Desktop\cloud_reform\oj-backend-cloud" />
+      <recent name="C:\Users\caiwei\Desktop\cloud_reform\oj-backend-cloud\sandBox-serice-9091\src\main\java\com\caiwei\online_judge" />
+      <recent name="C:\Users\caiwei\Desktop\cloud_reform\oj-backend-cloud\sandBox-serice-9091\src\main\resources" />
+      <recent name="C:\Users\caiwei\Desktop\cloud_reform\oj-backend-cloud\oj-service-1000\src\main\java\com\caiwei\online_judge" />
+      <recent name="C:\Users\caiwei\Desktop\cloud_reform\oj-backend-cloud\oj-service-9090\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main1000">
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oj-service-1000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caiwei.online_judge.checkComponent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.caiwei.online_jusge" />
+      <option name="MAIN_CLASS_NAME" value="com.caiwei.online_judge.test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oj-service-1000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caiwei.online_judge.checkComponent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.caiwei.online_jusge" />
+      <option name="MAIN_CLASS_NAME" value="com.caiwei.online_judge.test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oj-service-1000" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.caiwei.online_judge.Main1000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caiwei.online_judge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="codeSandBox9090" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sandBox-serice-9090" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.caiwei.online_judge.codeSandBox9090" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caiwei.online_judge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="codeSandBox9091" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sandBox-serice-9091" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.caiwei.online_judge.codeSandBox9091" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caiwei.online_judge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main1000" />
+        <item itemvalue="JUnit.test.test" />
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="Spring Boot.codeSandBox9091" />
+        <item itemvalue="Spring Boot.codeSandBox9090" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="75ad93e3-0884-4185-9b41-f89b94ebf4ba" name="更改" comment="" />
+      <created>1698807645863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698807645863</updated>
+      <workItem from="1720257400297" duration="6721000" />
+      <workItem from="1720278004448" duration="4778000" />
+      <workItem from="1720327943637" duration="6350000" />
+      <workItem from="1720401986187" duration="13000" />
+      <workItem from="1720496349309" duration="1093000" />
+      <workItem from="1720508634786" duration="12000" />
+      <workItem from="1720610937427" duration="2494000" />
+      <workItem from="1720662948061" duration="10000" />
+      <workItem from="1720748649039" duration="2586000" />
+      <workItem from="1720753016381" duration="1022000" />
+      <workItem from="1721189635903" duration="123000" />
+      <workItem from="1723104569961" duration="6663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oj-service-1000/src/main/java/com/caiwei/online_judge/judge/JudgeServiceImpl.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/oj_backend_cloud$Main1000.ic" NAME="Main1000 覆盖结果" MODIFIED="1723110556244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.caiwei.online_judge.*</FILTER>
+    </SUITE>
+  </component>
+</project>

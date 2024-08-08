@@ -1,0 +1,12 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: service-oj-code-sandbox
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+    inetutils:
+      ignored-interfaces: 'VMware Virtual Ethernet Adapter for VMnet1,VMware Virtual Ethernet Adapter for VMnet8'

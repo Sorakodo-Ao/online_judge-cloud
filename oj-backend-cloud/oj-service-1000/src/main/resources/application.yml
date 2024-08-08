@@ -1,0 +1,91 @@
+# 公共配置文件
+server:
+  port: 1000
+  servlet:
+    context-path: /api
+    # cookie 30 天过期
+    session:
+      cookie:
+        max-age: 2592000
+spring:
+  application:
+    name: consumer-oj-backend
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    openfeign:
+      client:
+        config:
+          default:
+            loggerLevel: BASIC # 日志级别，BASIC就是基本的请求和响应信息
+  # 默认 dev 环境
+  profiles:
+    active: dev
+  # 支持 swagger3
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  # session 配置
+  session:
+    # 取消注释开启分布式 session（须先配置 Redis）
+    # store-type: redis
+    # 30 天过期
+    timeout: 2592000
+  # 数据库配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/oj?characterEncoding=utf8&serverTimezone=UTC
+    username: XXXX
+  # TODO 配置数据库密码
+    password: XXXX
+
+  # 文件上传
+  servlet:
+    multipart:
+      # 大小限制
+      max-file-size: 10MB
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp功能
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: isDelete # 全局逻辑删除的实体字段名
+      logic-delete-value: 1 # 逻辑已删除值（默认为 1）
+      logic-not-delete-value: 0 # 逻辑未删除值（默认为 0）
+
+# springdoc-openapi项目配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    # 排序方式为首字母
+    tags-sorter: alpha
+    # 使用增强order属性进行排序，或者不设置该参数( @ApiOperationSupport(order = n)直接生效)
+    operations-sorter: order
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    #组名可以自己设置
+    - group: 'default'
+      paths-to-match: '/**'
+      # controller所在包
+      packages-to-scan: com.caiwei.online_judge.controller
+# knife4j的增强配置，不需要增强可以不配
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+
+#指定代码沙箱的类型
+codeSandBox:
+  type: remote
+## 激活Sentinel对Feign的支持
+#feign:
+#  sentinel:
+#    enabled: true
